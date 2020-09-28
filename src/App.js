@@ -10,7 +10,6 @@ import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import TimeLine from "./components/projects-timeline/projects-timeline.component";
-import Experience from "./pages/experience/experience.component";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import FooterPanel from "./components/footer/footer.component";
@@ -54,8 +53,6 @@ const App = () => {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
-
-            <Experience />
           </Fade>
         </Container>
       </div>

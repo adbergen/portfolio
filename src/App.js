@@ -10,7 +10,6 @@ import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 
 import "./App.css";
-import { Parallax } from "react-parallax";
 
 const App = () => {
   return (

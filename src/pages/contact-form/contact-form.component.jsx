@@ -3,7 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "./contact-form.styles.css";
+import "./contact-form.style.css";
 
 const ContactForm = () => {
   return (
@@ -14,18 +14,21 @@ const ContactForm = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="mailto:akjha96@gmail.com"
+                href="mailto:anthonydbergen@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-danger" title="akjha96@gmail.com">
+                <Button
+                  variant="outline-danger"
+                  title="anthonydbergen@gmail.com"
+                >
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
             </div>
             <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+                href="www.linkedin.com/in/anthonybergen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,7 +50,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://github.com/akjha96"
+                href="https://github.com/anthonydbergen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -58,7 +61,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://twitter.com/akjha96"
+                href="https://twitter.com/anthonydbergen"
                 target="_blank"
                 rel="noopener noreferrer"
               >

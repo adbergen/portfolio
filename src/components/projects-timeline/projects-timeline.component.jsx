@@ -24,7 +24,7 @@ import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 
-import "./projects-timeline.styles.css";
+import "./projects-timeline.style.css";
 
 const TimeLine = () => {
   return (

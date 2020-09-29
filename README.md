@@ -52,7 +52,7 @@ Using npm:
 
 ## Usage
 
-<p> This application is designed to allow an employee or manager to view an employee directory. When the user loads the page, a table of employees is displayed allowing the user to sort by name, phone, email, or dob. The user can also filter by name via the search field.
+<p> This is a portfolio applcation.
 
 <hr>
 
@@ -62,7 +62,7 @@ Using npm:
 <li>HTML, CSS, Bootstrap</li>
 <li>Javascript, jQuery</li>
 <li>React, node.js, Express</li>
-<li>GitHub</li>
+<li>GitHub Pages</li>
 </ul>
 
 <hr>

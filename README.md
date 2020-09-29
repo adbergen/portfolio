@@ -19,13 +19,13 @@ This is a portfolio application.</p>
       Github Repository
     </a>
 <span> | </span>
-<a href="#">
+<a href="https://adbergen.github.io/portfolio/">
       Github Pages
     </a>
   </h4>
 </div>
 
-![Screenshot of application demo](public/demo.png)
+![Screenshot of application demo](src/assets/img/readme/demo.png)
 
 <hr>
 

@@ -22,7 +22,6 @@ function About() {
                   alt="profile"
                   src={Profile}
                   thumbnail
-                  fluid
                 />
               </Row>
             </Col>

@@ -2,16 +2,18 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-
+import TheGamingNetwork from "../../assets/img/projects/the-gaming-network.webp";
 import EmployeeDirectory from "../../assets/img/projects/employee-directory.webp";
 import ReadYourMovie from "../../assets/img/projects/read-your-movie.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 // skills
+import L_MONGODB from "../../assets/img/skills/mongoDB.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
+import L_AUTH0 from "../../assets/img/skills/auth0.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import Image from "react-bootstrap/Image";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
@@ -27,6 +29,112 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Project: The Gaming Network */}
+
+          <ImageEvent
+            date="08/2020"
+            className="text-center"
+            text="The Gaming Network"
+            src={TheGamingNetwork}
+            alt="The Gaming Network Demo"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> An app that lets gamers
+                        connect to find games and groups to play together.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>
+                            Personalized dashboard to search for a game to store
+                          </li>
+                          <li>Find details about each game you search </li>
+                          <li>Chat with other users via socket.io</li>
+                          <li>Login and authenticate with Auth0</li>
+                          <li>Unofficial Metacritic server-side API</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_AUTH0}
+                                alt="Auth0"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Auth0
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://good-game2020.herokuapp.com/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/adbergen/the-gaming-network"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Employee Directory */}
 
           <ImageEvent

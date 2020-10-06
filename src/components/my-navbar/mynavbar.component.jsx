@@ -9,11 +9,12 @@ const MyNavbar = () => {
   return (
     <>
       <Navbar
+        style={{ backgroundColor: "black" }}
         collapseOnSelect
         fixed="top"
         expand="md"
-        bg="dark"
-        variant="dark"
+        // bg="black"
+        variant="white"
         className="animate-navbar nav-theme justify-content-between"
       >
         <Navbar.Brand href="#home">

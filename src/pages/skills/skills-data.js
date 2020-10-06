@@ -12,6 +12,8 @@ import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_MONGODB from "../../assets/img/skills/mongoDB.svg";
+import L_AUTH0 from "../../assets/img/skills/auth0.svg";
 
 export const skills = {
   frontend: [
@@ -79,6 +81,12 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
+    {
+      link: "https://auth0.com/",
+      imgAltText: "Auth0",
+      imgSrc: L_AUTH0,
+      skillName: "Auth0",
+    },
   ],
   hostingPlatforms: [
     {
@@ -108,6 +116,12 @@ export const skills = {
       imgAltText: "MS-SQL",
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
+    },
+    {
+      link: "https://www.mongodb.com/",
+      imgAltText: "MongoDB",
+      imgSrc: L_MONGODB,
+      skillName: "MongoDB",
     },
   ],
   versionControl: [

@@ -4,7 +4,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 // projects
 import TheGamingNetwork from "../../assets/img/projects/the-gaming-network.webp";
 import Trace from "../../assets/img/projects/trace.webp";
-// import EmployeeDirectory from "../../assets/img/projects/employee-directory.webp";
+
 import ReadYourMovie from "../../assets/img/projects/read-your-movie.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";

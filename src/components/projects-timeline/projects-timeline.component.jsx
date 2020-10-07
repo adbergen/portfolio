@@ -32,7 +32,7 @@ const TimeLine = () => {
           {/* Project: The Gaming Network */}
 
           <ImageEvent
-            date="08/2020"
+            date="09/2020"
             className="text-center"
             text="The Gaming Network"
             src={TheGamingNetwork}

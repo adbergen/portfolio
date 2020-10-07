@@ -49,7 +49,7 @@ function About() {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1WuMCwg68WfNHswutbGghRH2Df2c-ySr3/view"
+                      href="https://drive.google.com/file/d/1WuMCwg68WfNHswutbGghRH2Df2c-ySr3/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

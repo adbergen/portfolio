@@ -3,24 +3,26 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 import TheGamingNetwork from "../../assets/img/projects/the-gaming-network.webp";
-import EmployeeDirectory from "../../assets/img/projects/employee-directory.webp";
+import Trace from "../../assets/img/projects/trace.webp";
+// import EmployeeDirectory from "../../assets/img/projects/employee-directory.webp";
 import ReadYourMovie from "../../assets/img/projects/read-your-movie.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 // skills
+import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_MONGODB from "../../assets/img/skills/mongoDB.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_AUTH0 from "../../assets/img/skills/auth0.svg";
-import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+// import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import Image from "react-bootstrap/Image";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_MATERIALIZE from "../../assets/img/skills/material-ui-1.svg";
-
+import L_MYSQL from "../../assets/img/skills/mysql.svg";
 import "./projects-timeline.style.css";
 
 const TimeLine = () => {
@@ -135,14 +137,14 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Employee Directory */}
+          {/* Project: Trace */}
 
           <ImageEvent
             date="09/2020"
             className="text-center"
-            text="Employee Directory"
-            src={EmployeeDirectory}
-            alt="Employee Directory Demo"
+            text="Trace"
+            src={Trace}
+            alt="Trace Demo"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -158,13 +160,19 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that lets you view
-                        an employee directory.
+                        <strong>Description:</strong> An app that lets you track
+                        shipped packages.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search, filter, and sort through employees</li>
-                          <li>Employees being fetched via API call</li>
+                          <li>
+                            Email and user authentication with Passport and
+                            Bcrypt
+                          </li>
+                          <li>
+                            tracking information being fetched via API call and
+                            stored in MySQL database
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -172,12 +180,12 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
+                                src={L_MYSQL}
+                                alt="MySQL"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
+                              MySQL
                             </span>
                           </li>
                           <li>
@@ -216,12 +224,12 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_GITHUB_PAGES}
-                                alt="GitHub Pages"
+                                src={L_HEROKU}
+                                alt="Heroku"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              GitHub Pages
+                              Heroku
                             </span>
                           </li>
                         </ul>
@@ -232,13 +240,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://adbergen.github.io/employee-directory/"
+                  href="https://tracerx.herokuapp.com/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/adbergen/employee-directory"
+                  href="https://github.com/adbergen/trace"
                   target="_blank"
                 >
                   SOURCE CODE

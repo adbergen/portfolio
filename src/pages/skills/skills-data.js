@@ -14,6 +14,7 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_MONGODB from "../../assets/img/skills/mongoDB.svg";
 import L_AUTH0 from "../../assets/img/skills/auth0.svg";
+import L_MYSQL from "../../assets/img/skills/mysql.svg";
 
 export const skills = {
   frontend: [
@@ -116,6 +117,12 @@ export const skills = {
       imgAltText: "MS-SQL",
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
+    },
+    {
+      link: "https://www.mysql.com/",
+      imgAltText: "MySQL",
+      imgSrc: L_MYSQL,
+      skillName: "My-SQL",
     },
     {
       link: "https://www.mongodb.com/",

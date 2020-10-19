@@ -21,7 +21,6 @@ function About() {
                   className="profile "
                   alt="profile"
                   src={Profile}
-                  thumbnail
                 />
               </Row>
             </Col>

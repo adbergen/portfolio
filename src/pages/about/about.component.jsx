@@ -18,9 +18,10 @@ function About() {
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2">
                 <Image
-                  className="profile "
+                  className="profile justify-content-end"
                   alt="profile"
                   src={Profile}
+                  thumbnail fluid
                 />
               </Row>
             </Col>

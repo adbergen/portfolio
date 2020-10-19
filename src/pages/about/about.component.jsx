@@ -21,7 +21,7 @@ function About() {
                   className="profile justify-content-end"
                   alt="profile"
                   src={Profile}
-                  thumbnail
+                  thumbnail fluid
                 />
               </Row>
             </Col>

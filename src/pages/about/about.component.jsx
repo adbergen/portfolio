@@ -39,6 +39,9 @@ function About() {
                 automation, telecommunications, and logistics.
                 <br />
                 <br />
+                I have a strong passion for coding because it gives me the ability to create something of my own, in practically a different world. My creations are an extension of myself that I hope others may find just as much fulfillment from them as I do.
+                <br />
+                <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">

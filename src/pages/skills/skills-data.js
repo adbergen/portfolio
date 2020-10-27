@@ -1,3 +1,4 @@
+// front end
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
@@ -5,16 +6,26 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+// back end
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
-import L_GIT from "../../assets/img/skills/git-icon.svg";
+import L_DJANGO from "../../assets/img/skills/django.svg";
+import L_AUTH0 from "../../assets/img/skills/auth0.svg";
+// host
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_AWS from "../../assets/img/skills/aws.svg";
+// programming
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_MONGODB from "../../assets/img/skills/mongoDB.svg";
-import L_AUTH0 from "../../assets/img/skills/auth0.svg";
+import L_PYTHON from "../../assets/img/skills/python.svg";
+// database
+import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_MYSQL from "../../assets/img/skills/mysql.svg";
+import L_SQLITE from "../../assets/img/skills/sqlite.svg";
+import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+import L_MONGODB from "../../assets/img/skills/mongoDB.svg";
+// version
+import L_GIT from "../../assets/img/skills/git-icon.svg";
 
 export const skills = {
   frontend: [
@@ -30,12 +41,6 @@ export const skills = {
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
-    },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
     },
     {
       link: "https://getbootstrap.com/",
@@ -88,6 +93,12 @@ export const skills = {
       imgSrc: L_AUTH0,
       skillName: "Auth0",
     },
+    {
+      link: "https://auth0.com/",
+      imgAltText: "Django",
+      imgSrc: L_DJANGO,
+      skillName: "Django",
+    },
   ],
   hostingPlatforms: [
     {
@@ -102,6 +113,12 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      link: "https://www.aws.amazoncom/",
+      imgAltText: "Amazon Web Services",
+      imgSrc: L_AWS,
+      skillName: "Amazon Web Services",
+    },
   ],
   programmingLanguages: [
     {
@@ -109,6 +126,12 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://www.python.org/",
+      imgAltText: "Python",
+      imgSrc: L_PYTHON,
+      skillName: "Python",
     },
   ],
   databases: [
@@ -120,9 +143,21 @@ export const skills = {
     },
     {
       link: "https://www.mysql.com/",
-      imgAltText: "MySQL",
+      imgAltText: "My-SQL",
       imgSrc: L_MYSQL,
       skillName: "My-SQL",
+    },
+    {
+      link: "https://www.sqlite.org/",
+      imgAltText: "SQLite",
+      imgSrc: L_SQLITE,
+      skillName: "SQLite",
+    },
+    {
+      link: "https://www.postgresql.org/",
+      imgAltText: "PostgreSQL",
+      imgSrc: L_POSTGRESQL,
+      skillName: "PostgreSQL",
     },
     {
       link: "https://www.mongodb.com/",

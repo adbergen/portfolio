@@ -22,7 +22,7 @@ const ContactForm = () => {
                   variant="outline-danger"
                   title="anthonydbergen@gmail.com"
                 >
-                  <i className="fas fa-envelope-square"></i> Email Me
+                  <i className="fas fa-envelope-square"></i> Email Me: anthonydbergen@gmail.com
                 </Button>
               </a>
             </div>

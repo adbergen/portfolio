@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a28d7c704ebbf93a6a1fdbd72e37168",
+    "revision": "29392af34bfa6b17e806b19fed66209d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "bb25562c712d4852c5b4",
+    "revision": "0a606e9ab552e81ad40b",
     "url": "/portfolio/static/css/main.0f0739e4.chunk.css"
   },
   {
-    "revision": "da33fc66b3ffab489dae",
-    "url": "/portfolio/static/js/2.23872b56.chunk.js"
+    "revision": "01ef8b0c9224821d165b",
+    "url": "/portfolio/static/js/2.1bb18f07.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.23872b56.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1bb18f07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb25562c712d4852c5b4",
-    "url": "/portfolio/static/js/main.6eddb076.chunk.js"
+    "revision": "0a606e9ab552e81ad40b",
+    "url": "/portfolio/static/js/main.6db1400e.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "44753d8e6e7c64bb5361b5f56112b547",
     "url": "/portfolio/static/media/auth0.44753d8e.svg"
+  },
+  {
+    "revision": "0a4e59987c51f57ad663c80c4a3459ab",
+    "url": "/portfolio/static/media/aws.0a4e5998.svg"
   },
   {
     "revision": "bf989778565c49da91f9e0ef13dbdc5c",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3707da3c6a394c7ee2523273f8d98a25",
     "url": "/portfolio/static/media/css3.3707da3c.svg"
+  },
+  {
+    "revision": "bcf22073c9f13bab1761b90bce9fec55",
+    "url": "/portfolio/static/media/django.bcf22073.svg"
   },
   {
     "revision": "c6bab64b183f96aa47077fd3db37afd0",
@@ -92,8 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/nodejs.a1231528.svg"
   },
   {
+    "revision": "d7c985e7cca077dc2d77f89a66573e35",
+    "url": "/portfolio/static/media/postgresql.d7c985e7.svg"
+  },
+  {
     "revision": "898915f9f4b8e2dec5733d3613eaf7ff",
     "url": "/portfolio/static/media/profile.898915f9.png"
+  },
+  {
+    "revision": "146716bdf1a351db5705ec1e6a25ed08",
+    "url": "/portfolio/static/media/python.146716bd.svg"
   },
   {
     "revision": "83fe61b05935f090b671b08aeb77b63d",
@@ -122,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e5b87b60151049a8df9ec0bd30978f0",
     "url": "/portfolio/static/media/slide3.8e5b87b6.webp"
+  },
+  {
+    "revision": "9387c5beecc9bd3a669b17d0f298ea7b",
+    "url": "/portfolio/static/media/sqlite.9387c5be.svg"
   },
   {
     "revision": "2cb52e9ac1cf2cf80097bef3bec7675d",
